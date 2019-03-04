@@ -3,7 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:GradeCalculator"
         mc:Ignorable="d"
         Title="Grade Calculator" Height="559.2" Width="313.447" FontFamily="Segoe UI Semibold">
     <Window.Resources>
@@ -57,7 +56,7 @@
             <Border Padding="10">
                 <!--Outer Grid in SGPA Tab item-->
                 <Grid>
-                
+
                     <!--#region Row and Column Definitions in Tab item 1-->
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
@@ -79,7 +78,7 @@
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
                     <!--#endregion-->
-                    
+
                     <!-- Column 1: Subject Toggles -->
                     <CheckBox Grid.Row="0" VerticalAlignment="Center" FontFamily="Segoe UI Semibold">Toggle</CheckBox>
                     <CheckBox Grid.Row="1" VerticalAlignment="Center" FontFamily="Segoe UI Semibold">Subject 1</CheckBox>
@@ -94,7 +93,7 @@
 
                     <TextBlock VerticalAlignment="Center" Grid.Row="0" Grid.Column="1" FontFamily="Segoe UI Semibold" >Credits</TextBlock>
                     <TextBox x:Name="Credit1" Margin="0 0 7 0" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Padding="3" TextChanged="Credit1_TextChanged" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox x:Name="Credit2" Margin="0 0 7 0" VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" Padding="3" TextChanged="TextBox_TextChanged" FontFamily="Segoe UI Semibold"></TextBox>
+                    <TextBox x:Name="Credit2" Margin="0 0 7 0" VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Credit2_TextChanged"></TextBox>
                     <TextBox x:Name="Credit3" Margin="0 0 7 0" VerticalAlignment="Center" Grid.Row="3" Grid.Column="1" Padding="3" TextChanged="Credit3_TextChanged" FontFamily="Segoe UI Semibold"></TextBox>
                     <TextBox x:Name="Credit4" Margin="0 0 7 0" VerticalAlignment="Center" Grid.Row="4" Grid.Column="1" Padding="3" TextChanged="Credit4_TextChanged" FontFamily="Segoe UI Semibold"></TextBox>
                     <TextBox x:Name="Credit5" Margin="0 0 7 0" VerticalAlignment="Center" Grid.Row="5" Grid.Column="1" Padding="3" TextChanged="Credit5_TextChanged" FontFamily="Segoe UI Semibold"></TextBox>
@@ -103,13 +102,13 @@
 
                     <!-- Column 3: Grade Title and Corresponding Textboxes -->
                     <TextBlock  Grid.Row="0" VerticalAlignment="Center" Margin="10 0" Grid.Column="2" FontFamily="Segoe UI Semibold">Grade</TextBlock>
-                    <TextBox VerticalAlignment="Center" Grid.Row="1" Margin="7 0" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox VerticalAlignment="Center" Grid.Row="2" Margin="7 0" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox VerticalAlignment="Center" Grid.Row="3" Margin="7 0" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox VerticalAlignment="Center" Grid.Row="4" Margin="7 0" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox VerticalAlignment="Center" Grid.Row="5" Margin="7 0" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox VerticalAlignment="Center" Grid.Row="6" Margin="7 0" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox VerticalAlignment="Center" Grid.Row="7" Margin="7 0" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
+                    <TextBox x:Name="Grade1" VerticalAlignment="Center" Grid.Row="1" Margin="7 0" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Grade1_TextChanged" CharacterCasing="Upper"></TextBox>
+                    <TextBox x:Name="Grade2" VerticalAlignment="Center" Grid.Row="2" Margin="7 0" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Grade2_TextChanged" CharacterCasing="Upper"></TextBox>
+                    <TextBox x:Name="Grade3" VerticalAlignment="Center" Grid.Row="3" Margin="7 0" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Grade3_TextChanged" CharacterCasing="Upper"></TextBox>
+                    <TextBox x:Name="Grade4" VerticalAlignment="Center" Grid.Row="4" Margin="7 0" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Grade4_TextChanged" CharacterCasing="Upper"></TextBox>
+                    <TextBox x:Name="Grade5" VerticalAlignment="Center" Grid.Row="5" Margin="7 0" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Grade5_TextChanged" CharacterCasing="Upper"></TextBox>
+                    <TextBox x:Name="Grade6" VerticalAlignment="Center" Grid.Row="6" Margin="7 0" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Grade6_TextChanged" CharacterCasing="Upper"></TextBox>
+                    <TextBox x:Name="Grade7" VerticalAlignment="Center" Grid.Row="7" Margin="7 0" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold" CharacterCasing="Upper" TextChanged="Grade7_TextChanged"></TextBox>
 
                     <!-- Lower Part: Result, Change & Reset Buttons, Info -->
 
@@ -126,7 +125,7 @@
         <TabItem Header="CGPA">
             <Border Padding="10">
                 <Grid>
-                    
+
                     <!--#region Row & Column Definitions in Tab item 2 -->
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
@@ -146,7 +145,7 @@
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
                     <!--#endregion-->
-                    
+
                     <!-- Column 1: Subject Toggles -->
                     <CheckBox VerticalAlignment="Center" Grid.Row="0" FontFamily="Segoe UI Semibold">Toggle</CheckBox>
                     <CheckBox VerticalAlignment="Center" Grid.Row="1" FontFamily="Segoe UI Semibold">Semester 1</CheckBox>
@@ -157,7 +156,7 @@
                     <CheckBox VerticalAlignment="Center" Grid.Row="6" FontFamily="Segoe UI Semibold">Semester 6</CheckBox>
                     <CheckBox VerticalAlignment="Center" Grid.Row="7" FontFamily="Segoe UI Semibold">Semester 7</CheckBox>
                     <CheckBox VerticalAlignment="Center" Grid.Row="8" FontFamily="Segoe UI Semibold">Semester 8</CheckBox>
-                    
+
                     <!-- Column 2: SGPA Textboxes -->
                     <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Segoe UI Semibold">SGPA</TextBlock>
                     <TextBox VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
@@ -168,7 +167,7 @@
                     <TextBox VerticalAlignment="Center" Grid.Row="6" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
                     <TextBox VerticalAlignment="Center" Grid.Row="7" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
                     <TextBox VerticalAlignment="Center" Grid.Row="8" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    
+
                     <!-- Lower Part: Result & Reset Button -->
                     <TextBlock Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 0 10 0" FontFamily="Segoe UI Semibold">Result:</TextBlock>
                     <TextBox Grid.Row="9" Padding="3" VerticalAlignment="Center" Grid.Column="1" Grid.ColumnSpan="2" FontFamily="Segoe UI Semibold"></TextBox>

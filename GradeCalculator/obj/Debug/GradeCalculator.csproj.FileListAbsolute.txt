@@ -13,3 +13,17 @@ C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\obj\Debug\GradeCalcu
 C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.csproj.CoreCompileInputs.cache
 C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.exe
 C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.pdb
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\bin\Debug\GradeCalculator.exe.config
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\bin\Debug\GradeCalculator.exe
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\bin\Debug\GradeCalculator.pdb
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.csprojAssemblyReference.cache
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Debug\MainWindow.baml
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Debug\MainWindow.g.cs
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Debug\App.g.cs
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator_MarkupCompile.cache
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.g.resources
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.Properties.Resources.resources
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.csproj.GenerateResource.cache
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.csproj.CoreCompileInputs.cache
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.exe
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.pdb
