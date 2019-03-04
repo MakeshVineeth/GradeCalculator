@@ -69,18 +69,27 @@ namespace GradeCalculator
             {
                 if (C < 0)
                 {
-                    C = 0;
+                    C = 0; // Error Detection
+                    displayBox.Text = "Incorrect Input";
+                }
+                else
+                {
                     displayBox.Text = "";
                 }
+
             }
             else
             {
                 if (!(textBox.Text == ""))
                 {
-                    displayBox.Text = "Not Valid";
+                    C = 0; // Error Detection
+                    displayBox.Text = "Incorrect Input";
                 }
-
-                C = 0;
+                else
+                {
+                    displayBox.Text = "";
+                }
+                
             }
 
             return C;
@@ -138,7 +147,7 @@ namespace GradeCalculator
             {
                 if (G < 0)
                 {
-                    G = 0;
+                    G = 11; // Error Detection
                 }
             }
             else
