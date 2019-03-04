@@ -147,23 +147,28 @@ namespace GradeCalculator
             {
                 if (G < 0)
                 {
-                    G = 11; // Error Detection
+                    G = 0; // Error Detection
+                    displayBox.Text = "Incorrect Input";
+                }
+                else
+                {
+                    displayBox.Text = ""; // If Input is > 0 then clear invalid text
                 }
             }
             else
             {
                 switch (textBox.Text)
                 {
-                    case "": G = 0;break;
-                    case "O": G = 10; break;
-                    case "A+": G = 9; break;
-                    case "A": G = 8; break;
-                    case "B+": G = 7; break;
-                    case "B": G = 6; break;
-                    case "C": G = 5; break;
-                    case "P": G = 4; break;
-                    case "F": G = 0; break;
-                    case "Ab": G = 0; break;
+                    case "": G = 0; displayBox.Text = ""; break;
+                    case "O": G = 10; displayBox.Text = ""; break;
+                    case "A+": G = 9; displayBox.Text = ""; break;
+                    case "A": G = 8; displayBox.Text = ""; break;
+                    case "B+": G = 7; displayBox.Text = ""; break;
+                    case "B": G = 6; displayBox.Text = ""; break;
+                    case "C": G = 5; displayBox.Text = ""; break;
+                    case "P": G = 4; displayBox.Text = ""; break;
+                    case "F": G = 0; displayBox.Text = ""; break;
+                    case "Ab": G = 0; displayBox.Text = ""; break;
                     default:displayBox.Text="Invalid Input"; break;
                 }
 
@@ -174,17 +179,21 @@ namespace GradeCalculator
 
         public void SumUp()
         {
-            int C = C1 + C2 + C3 + C4 + C5 + C6 + C7;
-            int V1 = C1 * G1;
-            int V2 = C2 * G2;
-            int V3 = C3 * G3;
-            int V4 = C4 * G4;
-            int V5 = C5 * G5;
-            int V6 = C6 * G6;
-            int V7 = C7 * G7;
-            int V = V1 + V2 + V3 + V4 + V5 + V6 + V7;
-            double SGPA = V / (double) C;
-            displayBox.Text = SGPA.ToString();
+            if (!(displayBox.Text == "Invalid Input"))
+            {
+                int C = C1 + C2 + C3 + C4 + C5 + C6 + C7;
+                int V1 = C1 * G1;
+                int V2 = C2 * G2;
+                int V3 = C3 * G3;
+                int V4 = C4 * G4;
+                int V5 = C5 * G5;
+                int V6 = C6 * G6;
+                int V7 = C7 * G7;
+                int V = V1 + V2 + V3 + V4 + V5 + V6 + V7;
+                double SGPA = V / (double)C;
+                displayBox.Text = SGPA.ToString();
+            }
+
         }
 
         private void ResetBtn_Click(object sender, RoutedEventArgs e)
