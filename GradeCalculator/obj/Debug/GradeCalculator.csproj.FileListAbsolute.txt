@@ -1,0 +1,15 @@
+C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\bin\Debug\GradeCalculator.exe.config
+C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\bin\Debug\GradeCalculator.exe
+C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\bin\Debug\GradeCalculator.pdb
+C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.csprojAssemblyReference.cache
+C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\obj\Debug\MainWindow.g.cs
+C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\obj\Debug\App.g.cs
+C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator_MarkupCompile.cache
+C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator_MarkupCompile.lref
+C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\obj\Debug\MainWindow.baml
+C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.g.resources
+C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.Properties.Resources.resources
+C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.csproj.GenerateResource.cache
+C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.exe
+C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.pdb
