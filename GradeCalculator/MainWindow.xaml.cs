@@ -19,16 +19,19 @@ namespace GradeCalculator
         private void Credit5_TextChanged(object sender, TextChangedEventArgs e)
         {
             C5 = VerifyCredits(sender);
+            SumUp();
         }
 
         private void Credit6_TextChanged(object sender, TextChangedEventArgs e)
         {
             C6 = VerifyCredits(sender);
+            SumUp();
         }
 
         private void Credit2_TextChanged(object sender, TextChangedEventArgs e)
         {
             C2 = VerifyCredits(sender);
+            SumUp();
         }
 
 
@@ -36,16 +39,19 @@ namespace GradeCalculator
         private void Credit7_TextChanged(object sender, TextChangedEventArgs e)
         {
             C7 = VerifyCredits(sender);
+            SumUp();
         }
 
         private void Credit4_TextChanged(object sender, TextChangedEventArgs e)
         {
             C4 = VerifyCredits(sender);
+            SumUp();
         }
 
         private void Credit3_TextChanged(object sender, TextChangedEventArgs e)
         {
             C3 = VerifyCredits(sender);
+            SumUp();
         }
 
    
@@ -53,6 +59,7 @@ namespace GradeCalculator
         private void Credit1_TextChanged(object sender, TextChangedEventArgs e)
         {
             C1 = VerifyCredits(sender);
+            SumUp();
         }
 #endregion
 
@@ -70,7 +77,7 @@ namespace GradeCalculator
                 if (C < 0)
                 {
                     C = 0; // Error Detection
-                    displayBox.Text = "Incorrect Input";
+                    displayBox.Text = "Invalid Input";
                 }
                 else
                 {
@@ -83,7 +90,7 @@ namespace GradeCalculator
                 if (!(textBox.Text == ""))
                 {
                     C = 0; // Error Detection
-                    displayBox.Text = "Incorrect Input";
+                    displayBox.Text = "Invalid Input";
                 }
                 else
                 {
