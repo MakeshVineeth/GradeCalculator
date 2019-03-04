@@ -1,18 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using System.Windows.Threading;
 
 namespace GradeCalculator
 {
@@ -61,6 +48,7 @@ namespace GradeCalculator
             C3 = VerifyCredits(sender);
         }
 
+   
 
         private void Credit1_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -188,6 +176,17 @@ namespace GradeCalculator
             int V = V1 + V2 + V3 + V4 + V5 + V6 + V7;
             double SGPA = V / (double) C;
             displayBox.Text = SGPA.ToString();
+        }
+
+        private void ResetBtn_Click(object sender, RoutedEventArgs e)
+        {
+            foreach (UIElement gridItem in gridSGPA.Children)
+            {
+                if (gridItem.GetType() == typeof(TextBox))
+                {
+                    ((TextBox)gridItem).Text = string.Empty;
+                }
+            }
         }
     }
 }
