@@ -10,6 +10,8 @@ namespace GradeCalculator
     {
         int C1, C2, C3, C4, C5, C6, C7;
         int G1, G2, G3, G4, G5, G6, G7;
+        int c1, c2, c3, c4, c5, c6, c7, c8;
+        int g1, g2, g3, g4, g5, g6, g7;
 
      
 
@@ -67,42 +69,42 @@ namespace GradeCalculator
         #region Verify the Credits in CGPA
         private void Cre1_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            c1 = VerifyCreditsCGPA(sender);
         }
 
         private void Cre2_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            c2 = VerifyCreditsCGPA(sender);
         }
 
         private void Cre3_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            c3 = VerifyCreditsCGPA(sender);
         }
 
         private void Cre4_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            c4 = VerifyCreditsCGPA(sender);
         }
 
         private void Cre5_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            c5 = VerifyCreditsCGPA(sender);
         }
 
         private void Cre6_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            c6 = VerifyCreditsCGPA(sender);
         }
 
         private void Cre7_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            c7 = VerifyCreditsCGPA(sender);
         }
 
         private void Cre8_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            c8 = VerifyCreditsCGPA(sender);
         }
 
         #endregion
@@ -141,6 +143,39 @@ namespace GradeCalculator
                     displayBox.Text = "";
                 }
                 
+            }
+
+            return C;
+        }
+
+        public int VerifyCreditsCGPA(object sender)
+        {
+            TextBox textBox = sender as TextBox;
+            if (int.TryParse(textBox.Text, out int C))
+            {
+                if (C < 0)
+                {
+                    C = 0; // Error Detection
+                    resultCGPA.Text = "Invalid Input";
+                }
+                else
+                {
+                    resultCGPA.Text = "";
+                }
+
+            }
+            else
+            {
+                if (!(textBox.Text == ""))
+                {
+                    C = 0; // Error Detection
+                    resultCGPA.Text = "Invalid Input";
+                }
+                else
+                {
+                    resultCGPA.Text = "";
+                }
+
             }
 
             return C;
@@ -228,6 +263,25 @@ namespace GradeCalculator
             return G;
         }
 
+        public double VerifyGradeCGPA(object sender)
+        {
+            TextBox textBox = sender as TextBox;
+            if (double.TryParse(textBox.Text, out double G))
+            {
+                if (G < 0)
+                {
+                    G = 0; // Error Detection
+                    resultCGPA.Text = "Incorrect Input";
+                }
+                else
+                {
+                    resultCGPA.Text = ""; // If Input is > 0 then clear invalid text
+                }
+            }
+
+            return G;
+        }
+
         public void SumUp()
         {
             if (!(displayBox.Text == "Invalid Input"))
@@ -248,6 +302,30 @@ namespace GradeCalculator
                 }
                 else { displayBox.Text = "Invalid Input"; }
                 
+            }
+
+        }
+
+        public void SumUpCGPA()
+        {
+            if (!(displayBox.Text == "Invalid Input"))
+            {
+                int C = c1 + c2 + c3 + c4 + c5 + c6 + c7;
+                int V1 = c1 * g1;
+                int V2 = c2 * g2;
+                int V3 = c3 * g3;
+                int V4 = c4 * g4;
+                int V5 = c5 * g5;
+                int V6 = c6 * g6;
+                int V7 = c7 * g7;
+                int V = V1 + V2 + V3 + V4 + V5 + V6 + V7;
+                double CGPA = V / (double)C;
+                if (!(CGPA.ToString() == "NaN"))
+                {
+                    resultCGPA.Text = CGPA.ToString("0.##");
+                }
+                else { resultCGPA.Text = "Invalid Input"; }
+
             }
 
         }
