@@ -61,7 +61,51 @@ namespace GradeCalculator
             C1 = VerifyCredits(sender);
             SumUp();
         }
-#endregion
+        #endregion
+
+
+        #region Verify the Credits in CGPA
+        private void Cre1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Cre2_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Cre3_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Cre4_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Cre5_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Cre6_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Cre7_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Cre8_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        #endregion
 
         public MainWindow()
         {

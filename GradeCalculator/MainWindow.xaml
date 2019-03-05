@@ -160,14 +160,14 @@
 
                     <!-- Column 2: SGPA Textboxes -->
                     <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Segoe UI Semibold">Credits</TextBlock>
-                    <TextBox x:Name="Cre1" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="1" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox x:Name="Cre2" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="2" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox x:Name="Cre3" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="3" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox x:Name="Cre4" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="4" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox x:Name="Cre5" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="5" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox x:Name="Cre6" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="6" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox x:Name="Cre7" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="7" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox x:Name="Cre8" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="8" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
+                    <TextBox x:Name="Cre1" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="1" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Cre1_TextChanged"></TextBox>
+                    <TextBox x:Name="Cre2" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="2" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Cre2_TextChanged"></TextBox>
+                    <TextBox x:Name="Cre3" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="3" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Cre3_TextChanged"></TextBox>
+                    <TextBox x:Name="Cre4" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="4" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Cre4_TextChanged"></TextBox>
+                    <TextBox x:Name="Cre5" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="5" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Cre5_TextChanged"></TextBox>
+                    <TextBox x:Name="Cre6" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="6" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Cre6_TextChanged"></TextBox>
+                    <TextBox x:Name="Cre7" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="7" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Cre7_TextChanged"></TextBox>
+                    <TextBox x:Name="Cre8" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="8" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Cre8_TextChanged"></TextBox>
                     
                     <!-- Column 3: SGPA Textboxes -->
                     <TextBlock Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Segoe UI Semibold">SGPA</TextBlock>
