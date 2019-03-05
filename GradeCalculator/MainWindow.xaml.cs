@@ -70,41 +70,42 @@ namespace GradeCalculator
         private void Cre1_TextChanged(object sender, TextChangedEventArgs e)
         {
             c1 = VerifyCreditsCGPA(sender);
+            SumUpCGPA();
         }
 
         private void Cre2_TextChanged(object sender, TextChangedEventArgs e)
         {
-            c2 = VerifyCreditsCGPA(sender);
+            c2 = VerifyCreditsCGPA(sender); SumUpCGPA();
         }
 
         private void Cre3_TextChanged(object sender, TextChangedEventArgs e)
         {
-            c3 = VerifyCreditsCGPA(sender);
+            c3 = VerifyCreditsCGPA(sender); SumUpCGPA();
         }
 
         private void Cre4_TextChanged(object sender, TextChangedEventArgs e)
         {
-            c4 = VerifyCreditsCGPA(sender);
+            c4 = VerifyCreditsCGPA(sender); SumUpCGPA();
         }
 
         private void Cre5_TextChanged(object sender, TextChangedEventArgs e)
         {
-            c5 = VerifyCreditsCGPA(sender);
+            c5 = VerifyCreditsCGPA(sender); SumUpCGPA();
         }
 
         private void Cre6_TextChanged(object sender, TextChangedEventArgs e)
         {
-            c6 = VerifyCreditsCGPA(sender);
+            c6 = VerifyCreditsCGPA(sender); SumUpCGPA();
         }
 
         private void Cre7_TextChanged(object sender, TextChangedEventArgs e)
         {
-            c7 = VerifyCreditsCGPA(sender);
+            c7 = VerifyCreditsCGPA(sender); SumUpCGPA();
         }
 
         private void Cre8_TextChanged(object sender, TextChangedEventArgs e)
         {
-            c8 = VerifyCreditsCGPA(sender);
+            c8 = VerifyCreditsCGPA(sender); SumUpCGPA();
         }
 
         #endregion
