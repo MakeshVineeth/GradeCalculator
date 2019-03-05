@@ -183,7 +183,7 @@
                     <!-- Lower Part: Result & Reset Button -->
                     <TextBlock Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 0 10 0" FontFamily="Segoe UI Semibold">Result:</TextBlock>
                     <TextBox Grid.Row="9" Padding="3" VerticalAlignment="Center" Grid.Column="1" Grid.ColumnSpan="2" FontFamily="Segoe UI Semibold"></TextBox>
-                    <Button Grid.Row="10" Grid.Column="1" Padding="3" Margin="10" FontFamily="Segoe UI Semibold" Content="Reset" Background="#FFEEEEEE"/>
+                    <Button Grid.Row="10" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" Padding="5" FontFamily="Segoe UI Semibold" Content="Reset" Background="#FFEEEEEE"/>
                 </Grid>
             </Border>
         </TabItem>
