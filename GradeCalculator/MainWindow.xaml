@@ -171,14 +171,14 @@
                     
                     <!-- Column 3: SGPA Textboxes -->
                     <TextBlock Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Segoe UI Semibold">SGPA</TextBlock>
-                    <TextBox x:Name="sgpaGrade1" VerticalAlignment="Center" Margin="10 0 0 0" Grid.Row="1" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox x:Name="sgpaGrade2" VerticalAlignment="Center" Margin="10 0 0 0" Grid.Row="2" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox x:Name="sgpaGrade3" VerticalAlignment="Center" Margin="10 0 0 0" Grid.Row="3" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox x:Name="sgpaGrade4" VerticalAlignment="Center" Margin="10 0 0 0" Grid.Row="4" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox x:Name="sgpaGrade5" VerticalAlignment="Center" Margin="10 0 0 0" Grid.Row="5" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox x:Name="sgpaGrade6" VerticalAlignment="Center" Margin="10 0 0 0" Grid.Row="6" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox x:Name="sgpaGrade7" VerticalAlignment="Center" Margin="10 0 0 0" Grid.Row="7" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
-                    <TextBox x:Name="sgpaGrade8" VerticalAlignment="Center" Margin="10 0 0 0" Grid.Row="8" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold"></TextBox>
+                    <TextBox x:Name="sgpaGrade1" VerticalAlignment="Center" Margin="10 0 0 0" Grid.Row="1" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="SgpaGrade1_TextChanged"></TextBox>
+                    <TextBox x:Name="sgpaGrade2" VerticalAlignment="Center" Margin="10 0 0 0" Grid.Row="2" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="SgpaGrade2_TextChanged"></TextBox>
+                    <TextBox x:Name="sgpaGrade3" VerticalAlignment="Center" Margin="10 0 0 0" Grid.Row="3" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="SgpaGrade3_TextChanged"></TextBox>
+                    <TextBox x:Name="sgpaGrade4" VerticalAlignment="Center" Margin="10 0 0 0" Grid.Row="4" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="SgpaGrade4_TextChanged"></TextBox>
+                    <TextBox x:Name="sgpaGrade5" VerticalAlignment="Center" Margin="10 0 0 0" Grid.Row="5" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="SgpaGrade5_TextChanged"></TextBox>
+                    <TextBox x:Name="sgpaGrade6" VerticalAlignment="Center" Margin="10 0 0 0" Grid.Row="6" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="SgpaGrade6_TextChanged"></TextBox>
+                    <TextBox x:Name="sgpaGrade7" VerticalAlignment="Center" Margin="10 0 0 0" Grid.Row="7" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="SgpaGrade7_TextChanged"></TextBox>
+                    <TextBox x:Name="sgpaGrade8" VerticalAlignment="Center" Margin="10 0 0 0" Grid.Row="8" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="SgpaGrade8_TextChanged"></TextBox>
 
                     <!-- Lower Part: Result & Reset Button -->
                     <TextBlock Grid.Row="9" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 0 10 0" FontFamily="Segoe UI Semibold">Result:</TextBlock>

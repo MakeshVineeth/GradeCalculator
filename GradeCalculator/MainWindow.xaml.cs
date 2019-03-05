@@ -11,7 +11,7 @@ namespace GradeCalculator
         int C1, C2, C3, C4, C5, C6, C7;
         int G1, G2, G3, G4, G5, G6, G7;
         int c1, c2, c3, c4, c5, c6, c7, c8;
-        int g1, g2, g3, g4, g5, g6, g7;
+        double g1, g2, g3, g4, g5, g6, g7, g8;
 
      
 
@@ -226,6 +226,57 @@ namespace GradeCalculator
 
         #endregion
 
+        #region Check SGPA
+
+        private void SgpaGrade1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            g1 = VerifyGradeCGPA(sender);
+            SumUpCGPA();
+        }
+
+        private void SgpaGrade2_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            g2 = VerifyGradeCGPA(sender);
+            SumUpCGPA();
+        }
+
+        private void SgpaGrade3_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            g3 = VerifyGradeCGPA(sender);
+            SumUpCGPA();
+        }
+
+        private void SgpaGrade4_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            g4 = VerifyGradeCGPA(sender);
+            SumUpCGPA();
+        }
+
+        private void SgpaGrade5_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            g5 = VerifyGradeCGPA(sender);
+            SumUpCGPA();
+        }
+
+        private void SgpaGrade6_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            g6 = VerifyGradeCGPA(sender);
+            SumUpCGPA();
+        }
+
+        private void SgpaGrade7_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            g7 = VerifyGradeCGPA(sender);
+            SumUpCGPA();
+        }
+
+        private void SgpaGrade8_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            g8 = VerifyGradeCGPA(sender);
+            SumUpCGPA();
+        }
+        #endregion
+
         public int VerifyGrade(object sender)
         {
             TextBox textBox = sender as TextBox;
@@ -310,15 +361,16 @@ namespace GradeCalculator
         {
             if (!(displayBox.Text == "Invalid Input"))
             {
-                int C = c1 + c2 + c3 + c4 + c5 + c6 + c7;
-                int V1 = c1 * g1;
-                int V2 = c2 * g2;
-                int V3 = c3 * g3;
-                int V4 = c4 * g4;
-                int V5 = c5 * g5;
-                int V6 = c6 * g6;
-                int V7 = c7 * g7;
-                int V = V1 + V2 + V3 + V4 + V5 + V6 + V7;
+                int C = c1 + c2 + c3 + c4 + c5 + c6 + c7 + c8;
+                double V1 = c1 * g1;
+                double V2 = c2 * g2;
+                double V3 = c3 * g3;
+                double V4 = c4 * g4;
+                double V5 = c5 * g5;
+                double V6 = c6 * g6;
+                double V7 = c7 * g7;
+                double V8 = c8 * g8;
+                double V = V1 + V2 + V3 + V4 + V5 + V6 + V7 + V8;
                 double CGPA = V / (double)C;
                 if (!(CGPA.ToString() == "NaN"))
                 {
