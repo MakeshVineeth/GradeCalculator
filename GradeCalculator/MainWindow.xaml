@@ -80,7 +80,7 @@
                     <!--#endregion-->
 
                     <!-- Column 1: Subject Toggles -->
-                    <CheckBox Grid.Row="0" VerticalAlignment="Center" FontFamily="Segoe UI Semibold">Toggle</CheckBox>
+                    <CheckBox x:Name="toggleBtnSGPA" Grid.Row="0" VerticalAlignment="Center" FontFamily="Segoe UI Semibold" Checked="ToggleBtn_IsChecked" Unchecked="ToggleBtn_IsUnchecked">Toggle</CheckBox>
                     <CheckBox Grid.Row="1" VerticalAlignment="Center" FontFamily="Segoe UI Semibold">Subject 1</CheckBox>
                     <CheckBox Grid.Row="2" VerticalAlignment="Center" FontFamily="Segoe UI Semibold">Subject 2</CheckBox>
                     <CheckBox Grid.Row="3" VerticalAlignment="Center" FontFamily="Segoe UI Semibold">Subject 3</CheckBox>
@@ -148,7 +148,7 @@
                     <!--#endregion-->
 
                     <!-- Column 1: Subject Toggles -->
-                    <CheckBox VerticalAlignment="Center" Grid.Row="0" FontFamily="Segoe UI Semibold">Toggle</CheckBox>
+                    <CheckBox x:Name="ToggleBtnCGPA" VerticalAlignment="Center" Grid.Row="0" FontFamily="Segoe UI Semibold">Toggle</CheckBox>
                     <CheckBox VerticalAlignment="Center" Grid.Row="1" FontFamily="Segoe UI Semibold">Semester 1</CheckBox>
                     <CheckBox VerticalAlignment="Center" Grid.Row="2" FontFamily="Segoe UI Semibold">Semester 2</CheckBox>
                     <CheckBox VerticalAlignment="Center" Grid.Row="3" FontFamily="Segoe UI Semibold">Semester 3</CheckBox>
@@ -159,7 +159,7 @@
                     <CheckBox VerticalAlignment="Center" Grid.Row="8" FontFamily="Segoe UI Semibold">Semester 8</CheckBox>
 
                     <!-- Column 2: SGPA Textboxes -->
-                    <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Segoe UI Semibold">Credits</TextBlock>
+                    <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Segoe UI Semibold">Total Credits</TextBlock>
                     <TextBox x:Name="Cre1" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="1" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Cre1_TextChanged"></TextBox>
                     <TextBox x:Name="Cre2" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="2" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Cre2_TextChanged"></TextBox>
                     <TextBox x:Name="Cre3" VerticalAlignment="Center" Margin="0 0 10 0" Grid.Row="3" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Cre3_TextChanged"></TextBox>

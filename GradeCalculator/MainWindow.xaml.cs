@@ -414,5 +414,27 @@ namespace GradeCalculator
                 }
             }
         }
+
+        private void ToggleBtn_IsChecked(object sender, RoutedEventArgs e)
+        {
+                foreach (UIElement gridItem in gridSGPA.Children)
+                {
+                    if (gridItem.GetType() == typeof(CheckBox))
+                    {
+                        ((CheckBox)gridItem).IsChecked = true;
+                    }
+                }
+        }
+
+        private void ToggleBtn_IsUnchecked(object sender, RoutedEventArgs e)
+        {
+            foreach (UIElement gridItem in gridSGPA.Children)
+            {
+                if (gridItem.GetType() == typeof(CheckBox))
+                {
+                    ((CheckBox)gridItem).IsChecked = false;
+                }
+            }
+        }
     }
 }
