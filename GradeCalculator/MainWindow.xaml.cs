@@ -329,6 +329,18 @@ namespace GradeCalculator
                     resultCGPA.Text = ""; // If Input is > 0 then clear invalid text
                 }
             }
+            else
+            {
+                if (!(textBox.Text == ""))
+                {
+                    resultCGPA.Text = "Invalid Input";
+                }
+                else
+                {
+                    G = 0;
+                    resultCGPA.Text = "";
+                }
+            }
 
             return G;
         }
