@@ -178,7 +178,6 @@ namespace GradeCalculator
                 }
 
             }
-
             return C;
         }
 
@@ -362,22 +361,22 @@ namespace GradeCalculator
         {
             if (!(displayBox.Text == "Invalid Input"))
             {
+
                 int C = c1 + c2 + c3 + c4 + c5 + c6 + c7 + c8;
-                double V1 = c1 * g1;
-                double V2 = c2 * g2;
-                double V3 = c3 * g3;
-                double V4 = c4 * g4;
-                double V5 = c5 * g5;
-                double V6 = c6 * g6;
-                double V7 = c7 * g7;
-                double V8 = c8 * g8;
-                double V = V1 + V2 + V3 + V4 + V5 + V6 + V7 + V8;
-                double CGPA = V / (double)C;
-                if (!(CGPA.ToString() == "NaN"))
+                if (!(C == 0))
                 {
+                    double V1 = c1 * g1;
+                    double V2 = c2 * g2;
+                    double V3 = c3 * g3;
+                    double V4 = c4 * g4;
+                    double V5 = c5 * g5;
+                    double V6 = c6 * g6;
+                    double V7 = c7 * g7;
+                    double V8 = c8 * g8;
+                    double V = V1 + V2 + V3 + V4 + V5 + V6 + V7 + V8;
+                    double CGPA = V / (double)C;
                     resultCGPA.Text = CGPA.ToString("0.##");
-                }
-                else { resultCGPA.Text = "Invalid Input"; }
+                }                
 
             }
 
@@ -386,6 +385,17 @@ namespace GradeCalculator
         private void ResetBtn_Click(object sender, RoutedEventArgs e)
         {
             foreach (UIElement gridItem in gridSGPA.Children)
+            {
+                if (gridItem.GetType() == typeof(TextBox))
+                {
+                    ((TextBox)gridItem).Text = string.Empty;
+                }
+            }
+        }
+
+        private void ResetBtnCGPA_Click(object sender, RoutedEventArgs e)
+        {
+            foreach (UIElement gridItem in gridCGPA.Children)
             {
                 if (gridItem.GetType() == typeof(TextBox))
                 {
