@@ -338,20 +338,19 @@ namespace GradeCalculator
             if (!(displayBox.Text == "Invalid Input"))
             {
                 int C = C1 + C2 + C3 + C4 + C5 + C6 + C7;
-                int V1 = C1 * G1;
-                int V2 = C2 * G2;
-                int V3 = C3 * G3;
-                int V4 = C4 * G4;
-                int V5 = C5 * G5;
-                int V6 = C6 * G6;
-                int V7 = C7 * G7;
-                int V = V1 + V2 + V3 + V4 + V5 + V6 + V7;
-                double SGPA = V / (double)C;
-                if (!(SGPA.ToString() == "NaN"))
+                if (!(C == 0))
                 {
+                    int V1 = C1 * G1;
+                    int V2 = C2 * G2;
+                    int V3 = C3 * G3;
+                    int V4 = C4 * G4;
+                    int V5 = C5 * G5;
+                    int V6 = C6 * G6;
+                    int V7 = C7 * G7;
+                    int V = V1 + V2 + V3 + V4 + V5 + V6 + V7;
+                    double SGPA = V / (double)C;
                     displayBox.Text = SGPA.ToString("0.##");
                 }
-                else { displayBox.Text = "Invalid Input"; }
                 
             }
 
