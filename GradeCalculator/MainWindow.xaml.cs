@@ -397,7 +397,7 @@ namespace GradeCalculator
                     case "C": G = 5; displayBox.Text = ""; break;
                     case "P": G = 4; displayBox.Text = ""; break;
                     case "F": G = 0; displayBox.Text = ""; break;
-                    case "Ab": G = 0; displayBox.Text = ""; break;
+                    case "AB": G = 0; displayBox.Text = ""; break;
                     default:displayBox.Text="Invalid Input"; break;
                 }
 
