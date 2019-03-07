@@ -149,6 +149,35 @@ namespace GradeCalculator
             return C;
         }
 
+        private void ChangeSubs_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Work in Progress");
+        }
+
+        private void SubCheckBox1_Checked(object sender, RoutedEventArgs e)
+        {
+            Credit1.IsEnabled = true;
+            Grade1.IsEnabled = true;
+        }
+
+        private void SubCheckBox1_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Credit1.IsEnabled = false;
+            Grade1.IsEnabled = false;
+        }
+
+        private void SubCheckBox2_Checked(object sender, RoutedEventArgs e)
+        {
+            Credit2.IsEnabled = true;
+            Grade2.IsEnabled = true;
+        }
+
+        private void SubCheckBox2_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Credit2.IsEnabled = false;
+            Grade2.IsEnabled = false;
+        }
+
         public int VerifyCreditsCGPA(object sender)
         {
             TextBox textBox = sender as TextBox;
