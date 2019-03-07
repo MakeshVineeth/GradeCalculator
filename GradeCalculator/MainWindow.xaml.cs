@@ -114,6 +114,7 @@ namespace GradeCalculator
         {
             InitializeComponent();
             toggleBtnSGPA.IsChecked = true;
+            ToggleBtnCGPA.IsChecked = true;
         }
 
         public int VerifyCredits(object sender)
@@ -239,6 +240,106 @@ namespace GradeCalculator
             Credit7.IsEnabled = false;
             Grade7.IsEnabled = false;
         }
+        #endregion
+
+        #region Sem Checkboxes
+
+        private void SemChechBox1_Checked(object sender, RoutedEventArgs e)
+        {
+            Cre1.IsEnabled = true;
+            sgpaGrade1.IsEnabled = true;
+        }
+
+        private void SemChechBox1_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Cre1.IsEnabled = false;
+            sgpaGrade1.IsEnabled = false;
+        }
+
+        private void SemChechBox2_Checked(object sender, RoutedEventArgs e)
+        {
+            Cre2.IsEnabled = true;
+            sgpaGrade2.IsEnabled = true;
+        }
+
+        private void SemChechBox2_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Cre2.IsEnabled = false;
+            sgpaGrade2.IsEnabled = false;
+        }
+
+        private void SemChechBox3_Checked(object sender, RoutedEventArgs e)
+        {
+            Cre3.IsEnabled = true;
+            sgpaGrade3.IsEnabled = true;
+        }
+
+        private void SemChechBox3_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Cre3.IsEnabled = false;
+            sgpaGrade3.IsEnabled = false;
+        }
+
+        private void SemChechBox4_Checked(object sender, RoutedEventArgs e)
+        {
+            Cre4.IsEnabled = true;
+            sgpaGrade4.IsEnabled = true;
+        }
+
+        private void SemChechBox4_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Cre4.IsEnabled = false;
+            sgpaGrade4.IsEnabled = false;
+        }
+
+        private void SemChechBox5_Checked(object sender, RoutedEventArgs e)
+        {
+            Cre5.IsEnabled = true;
+            sgpaGrade5.IsEnabled = true;
+        }
+
+        private void SemChechBox5_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Cre5.IsEnabled = false;
+            sgpaGrade5.IsEnabled = false;
+        }
+
+        private void SemChechBox6_Checked(object sender, RoutedEventArgs e)
+        {
+            Cre6.IsEnabled = true;
+            sgpaGrade6.IsEnabled = true;
+        }
+
+        private void SemChechBox6_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Cre6.IsEnabled = false;
+            sgpaGrade6.IsEnabled = false;
+        }
+
+        private void SemChechBox8_Checked(object sender, RoutedEventArgs e)
+        {
+            Cre8.IsEnabled =true;
+            sgpaGrade8.IsEnabled = true;
+        }
+
+        private void SemChechBox8_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Cre8.IsEnabled = false;
+            sgpaGrade8.IsEnabled = false;
+        }
+
+        private void SemChechBox7_Checked(object sender, RoutedEventArgs e)
+        {
+            Cre7.IsEnabled = true;
+            sgpaGrade7.IsEnabled = true;
+        }
+
+        private void SemChechBox7_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Cre7.IsEnabled = false;
+            sgpaGrade7.IsEnabled = false;
+        }
+
         #endregion
 
         public int VerifyCreditsCGPA(object sender)
@@ -517,6 +618,7 @@ namespace GradeCalculator
                     }
                 }
         }
+
         private void ToggleBtn_IsUnchecked(object sender, RoutedEventArgs e)
         {
             foreach (UIElement gridItem in gridSGPA.Children)

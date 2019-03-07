@@ -149,14 +149,14 @@
 
                     <!-- Column 1: Subject Toggles -->
                     <CheckBox x:Name="ToggleBtnCGPA" VerticalAlignment="Center" Grid.Row="0" FontFamily="Segoe UI Semibold" Checked="ToggleBtnCGPA_IsChecked" Unchecked="ToggleBtnCGPA_IsUnchecked">Toggle</CheckBox>
-                    <CheckBox VerticalAlignment="Center" Grid.Row="1" FontFamily="Segoe UI Semibold">Semester 1</CheckBox>
-                    <CheckBox VerticalAlignment="Center" Grid.Row="2" FontFamily="Segoe UI Semibold">Semester 2</CheckBox>
-                    <CheckBox VerticalAlignment="Center" Grid.Row="3" FontFamily="Segoe UI Semibold">Semester 3</CheckBox>
-                    <CheckBox VerticalAlignment="Center" Grid.Row="4" FontFamily="Segoe UI Semibold">Semester 4</CheckBox>
-                    <CheckBox VerticalAlignment="Center" Grid.Row="5" FontFamily="Segoe UI Semibold">Semester 5</CheckBox>
-                    <CheckBox VerticalAlignment="Center" Grid.Row="6" FontFamily="Segoe UI Semibold">Semester 6</CheckBox>
-                    <CheckBox VerticalAlignment="Center" Grid.Row="7" FontFamily="Segoe UI Semibold">Semester 7</CheckBox>
-                    <CheckBox VerticalAlignment="Center" Grid.Row="8" FontFamily="Segoe UI Semibold">Semester 8</CheckBox>
+                    <CheckBox x:Name="SemChechBox1" VerticalAlignment="Center" Grid.Row="1" FontFamily="Segoe UI Semibold" Checked="SemChechBox1_Checked" Unchecked="SemChechBox1_Unchecked">Semester 1</CheckBox>
+                    <CheckBox x:Name="SemChechBox2" VerticalAlignment="Center" Grid.Row="2" FontFamily="Segoe UI Semibold" Checked="SemChechBox2_Checked" Unchecked="SemChechBox2_Unchecked">Semester 2</CheckBox>
+                    <CheckBox x:Name="SemChechBox3" VerticalAlignment="Center" Grid.Row="3" FontFamily="Segoe UI Semibold" Checked="SemChechBox3_Checked" Unchecked="SemChechBox3_Unchecked">Semester 3</CheckBox>
+                    <CheckBox x:Name="SemChechBox4" VerticalAlignment="Center" Grid.Row="4" FontFamily="Segoe UI Semibold" Checked="SemChechBox4_Checked" Unchecked="SemChechBox4_Unchecked">Semester 4</CheckBox>
+                    <CheckBox x:Name="SemChechBox5" VerticalAlignment="Center" Grid.Row="5" FontFamily="Segoe UI Semibold" Checked="SemChechBox5_Checked" Unchecked="SemChechBox5_Unchecked">Semester 5</CheckBox>
+                    <CheckBox x:Name="SemChechBox6" VerticalAlignment="Center" Grid.Row="6" FontFamily="Segoe UI Semibold" Checked="SemChechBox6_Checked" Unchecked="SemChechBox6_Unchecked">Semester 6</CheckBox>
+                    <CheckBox x:Name="SemChechBox7" VerticalAlignment="Center" Grid.Row="7" FontFamily="Segoe UI Semibold" Checked="SemChechBox7_Checked" Unchecked="SemChechBox7_Unchecked">Semester 7</CheckBox>
+                    <CheckBox x:Name="SemChechBox8" VerticalAlignment="Center" Grid.Row="8" FontFamily="Segoe UI Semibold" Checked="SemChechBox8_Checked" Unchecked="SemChechBox8_Unchecked">Semester 8</CheckBox>
 
                     <!-- Column 2: SGPA Textboxes -->
                     <TextBlock Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Segoe UI Semibold">Total Credits</TextBlock>
