@@ -113,7 +113,7 @@ namespace GradeCalculator
         public MainWindow()
         {
             InitializeComponent();
-         
+            toggleBtnSGPA.IsChecked = true;
         }
 
         public int VerifyCredits(object sender)
@@ -154,6 +154,8 @@ namespace GradeCalculator
             MessageBox.Show("Work in Progress");
         }
 
+        #region Subject Checkboxes SGPA
+
         private void SubCheckBox1_Checked(object sender, RoutedEventArgs e)
         {
             Credit1.IsEnabled = true;
@@ -177,6 +179,67 @@ namespace GradeCalculator
             Credit2.IsEnabled = false;
             Grade2.IsEnabled = false;
         }
+
+        private void SubCheckBox3_Checked(object sender, RoutedEventArgs e)
+        {
+            Credit3.IsEnabled = true;
+            Grade3.IsEnabled = true;
+        }
+
+        private void SubCheckBox3_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Credit3.IsEnabled = false;
+            Grade3.IsEnabled = false;
+        }
+
+        private void SubCheckBox4_Checked(object sender, RoutedEventArgs e)
+        {
+            Credit4.IsEnabled = true;
+            Grade4.IsEnabled = true;
+        }
+
+        private void SubCheckBox4_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Credit4.IsEnabled = false;
+            Grade4.IsEnabled = false;
+        }
+
+        private void SubCheckBox5_Checked(object sender, RoutedEventArgs e)
+        {
+            Credit5.IsEnabled = true;
+            Grade5.IsEnabled = true;
+        }
+
+        private void SubCheckBox5_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Credit5.IsEnabled = false;
+            Grade5.IsEnabled = false;
+        }
+
+        private void SubCheckBox6_Checked(object sender, RoutedEventArgs e)
+        {
+            Credit6.IsEnabled = true;
+            Grade6.IsEnabled = true;
+        }
+
+        private void SubCheckBox6_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Credit6.IsEnabled = false;
+            Grade6.IsEnabled = false;
+        }
+
+        private void SubCheckBox7_Checked(object sender, RoutedEventArgs e)
+        {
+            Credit7.IsEnabled = true;
+            Grade7.IsEnabled = true;
+        }
+
+        private void SubCheckBox7_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Credit7.IsEnabled = false;
+            Grade7.IsEnabled = false;
+        }
+        #endregion
 
         public int VerifyCreditsCGPA(object sender)
         {

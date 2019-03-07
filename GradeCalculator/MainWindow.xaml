@@ -83,11 +83,11 @@
                     <CheckBox x:Name="toggleBtnSGPA" Grid.Row="0" VerticalAlignment="Center" FontFamily="Segoe UI Semibold" Checked="ToggleBtn_IsChecked" Unchecked="ToggleBtn_IsUnchecked">Toggle</CheckBox>
                     <CheckBox x:Name="subCheckBox1" Grid.Row="1" VerticalAlignment="Center" FontFamily="Segoe UI Semibold" Checked="SubCheckBox1_Checked" Unchecked="SubCheckBox1_Unchecked">Subject 1</CheckBox>
                     <CheckBox x:Name="subCheckBox2" Grid.Row="2" VerticalAlignment="Center" FontFamily="Segoe UI Semibold" Checked="SubCheckBox2_Checked" Unchecked="SubCheckBox2_Unchecked">Subject 2</CheckBox>
-                    <CheckBox x:Name="subCheckBox3" Grid.Row="3" VerticalAlignment="Center" FontFamily="Segoe UI Semibold">Subject 3</CheckBox>
-                    <CheckBox x:Name="subCheckBox4" Grid.Row="4" VerticalAlignment="Center" FontFamily="Segoe UI Semibold">Subject 4</CheckBox>
-                    <CheckBox x:Name="subCheckBox5" Grid.Row="5" VerticalAlignment="Center" FontFamily="Segoe UI Semibold">Subject 5</CheckBox>
-                    <CheckBox x:Name="subCheckBox6" Grid.Row="6" VerticalAlignment="Center" FontFamily="Segoe UI Semibold">Subject 6</CheckBox>
-                    <CheckBox x:Name="subCheckBox7" Grid.Row="7" VerticalAlignment="Center" FontFamily="Segoe UI Semibold">Subject 7</CheckBox>
+                    <CheckBox x:Name="subCheckBox3" Grid.Row="3" VerticalAlignment="Center" FontFamily="Segoe UI Semibold" Checked="SubCheckBox3_Checked" Unchecked="SubCheckBox3_Unchecked">Subject 3</CheckBox>
+                    <CheckBox x:Name="subCheckBox4" Grid.Row="4" VerticalAlignment="Center" FontFamily="Segoe UI Semibold" Checked="SubCheckBox4_Checked" Unchecked="SubCheckBox4_Unchecked">Subject 4</CheckBox>
+                    <CheckBox x:Name="subCheckBox5" Grid.Row="5" VerticalAlignment="Center" FontFamily="Segoe UI Semibold" Checked="SubCheckBox5_Checked" Unchecked="SubCheckBox5_Unchecked">Subject 5</CheckBox>
+                    <CheckBox x:Name="subCheckBox6" Grid.Row="6" VerticalAlignment="Center" FontFamily="Segoe UI Semibold" Checked="SubCheckBox6_Checked" Unchecked="SubCheckBox6_Unchecked">Subject 6</CheckBox>
+                    <CheckBox x:Name="subCheckBox7" Grid.Row="7" VerticalAlignment="Center" FontFamily="Segoe UI Semibold" Checked="SubCheckBox7_Checked" Unchecked="SubCheckBox7_Unchecked">Subject 7</CheckBox>
 
                     <!-- Column 2: Credits Title & it's corresponding textboxes -->
 
