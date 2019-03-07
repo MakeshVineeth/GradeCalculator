@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\obj\Debug\
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Debug\
 GradeCalculator
 none
 false
 DEBUG;TRACE
-C:\Users\makes\source\repos\GradeCalculator\GradeCalculator\App.xaml
-11151548125
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\App.xaml
+2-935619791
 
-9952095867
+101694255269
 131569487696
-MainWindow.xaml;
+ChangeSubjectsUI.xaml;MainWindow.xaml;
 
-False
+True
 
