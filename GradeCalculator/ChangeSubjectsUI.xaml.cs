@@ -90,6 +90,7 @@ namespace GradeCalculator
             }
 
             Properties.Settings.Default.Save();
+            ((MainWindow)Application.Current.MainWindow).ChangeSubsInWindows();
             MessageBox.Show("Done");
         }
     }

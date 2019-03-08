@@ -115,7 +115,12 @@ namespace GradeCalculator
             InitializeComponent();
             toggleBtnSGPA.IsChecked = true;
             ToggleBtnCGPA.IsChecked = true;
+            ChangeSubsInWindows();
+            
+        }
 
+        public void ChangeSubsInWindows()
+        {
             subCheckBox1.Content = Properties.Settings.Default.subText1;
             subCheckBox2.Content = Properties.Settings.Default.subText2;
             subCheckBox3.Content = Properties.Settings.Default.subText3;
