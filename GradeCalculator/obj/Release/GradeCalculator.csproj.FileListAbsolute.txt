@@ -1,0 +1,16 @@
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\bin\Release\GradeCalculator.exe.config
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\bin\Release\GradeCalculator.exe
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\bin\Release\GradeCalculator.pdb
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Release\GradeCalculator.csprojAssemblyReference.cache
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Release\ChangeSubjectsUI.baml
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Release\MainWindow.baml
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Release\ChangeSubjectsUI.g.cs
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Release\MainWindow.g.cs
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Release\App.g.cs
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Release\GradeCalculator_MarkupCompile.cache
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Release\GradeCalculator.g.resources
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Release\GradeCalculator.Properties.Resources.resources
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Release\GradeCalculator.csproj.GenerateResource.cache
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Release\GradeCalculator.csproj.CoreCompileInputs.cache
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Release\GradeCalculator.exe
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Release\GradeCalculator.pdb
