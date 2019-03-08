@@ -4,7 +4,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="Change Subjects" Height="450" Width="800">
+        Title="Change Subjects" Height="342" Width="274">
+    <Border Padding="10">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -19,9 +20,31 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
 
-        <TextBlock>Subject 1</TextBlock>
-        <TextBox Grid.Column="1"></TextBox>
-    </Grid>
+        <TextBlock VerticalAlignment="Center">Subject 1</TextBlock>
+        <TextBox VerticalAlignment="Center" Padding="5" Grid.Column="1"></TextBox>
+
+        <TextBlock VerticalAlignment="Center" Grid.Row="1">Subject 2</TextBlock>
+            <TextBox VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Padding="5"></TextBox>
+
+            <TextBlock VerticalAlignment="Center" Grid.Row="2">Subject 3</TextBlock>
+            <TextBox VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" Padding="5"></TextBox>
+
+            <TextBlock VerticalAlignment="Center" Grid.Row="3">Subject 4</TextBlock>
+            <TextBox VerticalAlignment="Center" Grid.Column="1" Grid.Row="3" Padding="5"></TextBox>
+
+            <TextBlock VerticalAlignment="Center" Grid.Row="4">Subject 5</TextBlock>
+            <TextBox VerticalAlignment="Center" Grid.Column="1" Grid.Row="4" Padding="5"></TextBox>
+
+            <TextBlock VerticalAlignment="Center" Grid.Row="5">Subject 6</TextBlock>
+            <TextBox VerticalAlignment="Center" Grid.Column="1" Grid.Row="5" Padding="5"></TextBox>
+
+            <TextBlock VerticalAlignment="Center" Grid.Row="6">Subject 7</TextBlock>
+            <TextBox VerticalAlignment="Center" Grid.Column="1" Grid.Row="6" Padding="5"></TextBox>
+
+            <Button Grid.Row="7" Grid.Column="1" Margin="5" Padding="3">Submit</Button>
+        </Grid>
+    </Border>
 </Window>
