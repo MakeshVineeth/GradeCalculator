@@ -27,3 +27,5 @@ D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculato
 D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.csproj.CoreCompileInputs.cache
 D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.exe
 D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.pdb
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Debug\ChangeSubjectsUI.baml
+D:\Projects\C# Projects\GradeCalculator\GradeCalculator\obj\Debug\ChangeSubjectsUI.g.cs

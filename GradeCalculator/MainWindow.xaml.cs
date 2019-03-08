@@ -152,7 +152,8 @@ namespace GradeCalculator
 
         private void ChangeSubs_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Work in Progress");
+            ChangeSubjectsUI changeSubjectsUI = new ChangeSubjectsUI();
+            changeSubjectsUI.Show();
         }
 
         #region Subject Checkboxes SGPA
