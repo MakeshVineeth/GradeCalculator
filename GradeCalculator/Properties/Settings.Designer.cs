@@ -34,5 +34,77 @@ namespace GradeCalculator.Properties {
                 this["subText1"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string subText2 {
+            get {
+                return ((string)(this["subText2"]));
+            }
+            set {
+                this["subText2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string subText3 {
+            get {
+                return ((string)(this["subText3"]));
+            }
+            set {
+                this["subText3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string subText4 {
+            get {
+                return ((string)(this["subText4"]));
+            }
+            set {
+                this["subText4"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string subText5 {
+            get {
+                return ((string)(this["subText5"]));
+            }
+            set {
+                this["subText5"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string subText6 {
+            get {
+                return ((string)(this["subText6"]));
+            }
+            set {
+                this["subText6"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string subText7 {
+            get {
+                return ((string)(this["subText7"]));
+            }
+            set {
+                this["subText7"] = value;
+            }
+        }
     }
 }
