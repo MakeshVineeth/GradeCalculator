@@ -5,6 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
         Title="Change Subjects" Height="342" Width="274">
+    <Window.Resources>
+        <Style TargetType="{x:Type TextBox}">
+            <Style.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5" />
+                </Style>
+            </Style.Resources>
+        </Style>
+
+        <Style TargetType="{x:Type Button}">
+            <Style.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5" />
+                </Style>
+            </Style.Resources>
+        </Style>
+    </Window.Resources>
     <Border Padding="10">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -44,7 +61,7 @@
             <TextBlock VerticalAlignment="Center" Grid.Row="6">Subject 7</TextBlock>
             <TextBox x:Name="subTitle7" VerticalAlignment="Center" Grid.Column="1" Grid.Row="6" Padding="5"></TextBox>
 
-            <Button x:Name="submitSubjects" Grid.Row="7" Grid.Column="1" Margin="5" Padding="3" Click="SubmitSubjects_Click">Submit</Button>
+            <Button x:Name="submitSubjects" Grid.Row="7" Grid.Column="1" Margin="5" Padding="3" Click="SubmitSubjects_Click" Background="#FFEEEEEE" FontFamily="Segoe UI Semibold">Submit</Button>
         </Grid>
     </Border>
 </Window>
