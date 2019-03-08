@@ -23,5 +23,12 @@ namespace GradeCalculator
         {
             InitializeComponent();
         }
+
+        private void SubmitSubjects_Click(object sender, RoutedEventArgs e)
+        {
+            Properties.Settings.Default.subText1 = subTitle1.Text;
+            Properties.Settings.Default.Save();
+            MessageBox.Show("Done");
+        }
     }
 }
