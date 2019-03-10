@@ -91,7 +91,7 @@
 
                     <!-- Column 2: Credits Title & it's corresponding textboxes -->
 
-                    <Viewbox Stretch="Uniform" Grid.Row="0" Grid.Column="1" ><TextBlock VerticalAlignment="Center" FontFamily="Segoe UI Semibold" Margin="10">Credits</TextBlock></Viewbox>
+                    <TextBlock VerticalAlignment="Center" Grid.Row="0" Grid.Column="1" FontFamily="Segoe UI Semibold" >Credits</TextBlock>
                     <TextBox x:Name="Credit1" Margin="0 0 7 0" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Padding="3" TextChanged="Credit1_TextChanged" FontFamily="Segoe UI Semibold"></TextBox>
                     <TextBox x:Name="Credit2" Margin="0 0 7 0" VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Credit2_TextChanged"></TextBox>
                     <TextBox x:Name="Credit3" Margin="0 0 7 0" VerticalAlignment="Center" Grid.Row="3" Grid.Column="1" Padding="3" TextChanged="Credit3_TextChanged" FontFamily="Segoe UI Semibold"></TextBox>
@@ -101,7 +101,7 @@
                     <TextBox x:Name="Credit7" Margin="0 0 7 0" VerticalAlignment="Center" Grid.Row="7" Grid.Column="1" Padding="3" TextChanged="Credit7_TextChanged" FontFamily="Segoe UI Semibold"></TextBox>
 
                     <!-- Column 3: Grade Title and Corresponding Textboxes -->
-                    <Viewbox  Grid.Column="2" Grid.Row="0"><TextBlock VerticalAlignment="Center" Margin="10" FontFamily="Segoe UI Semibold">Grade</TextBlock></Viewbox>
+                    <TextBlock  Grid.Row="0" VerticalAlignment="Center" Margin="10 0" Grid.Column="2" FontFamily="Segoe UI Semibold">Grade</TextBlock>
                     <TextBox x:Name="Grade1" VerticalAlignment="Center" Grid.Row="1" Margin="7 0" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Grade1_TextChanged" CharacterCasing="Upper"></TextBox>
                     <TextBox x:Name="Grade2" VerticalAlignment="Center" Grid.Row="2" Margin="7 0" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Grade2_TextChanged" CharacterCasing="Upper"></TextBox>
                     <TextBox x:Name="Grade3" VerticalAlignment="Center" Grid.Row="3" Margin="7 0" Grid.Column="2" Padding="3" FontFamily="Segoe UI Semibold" TextChanged="Grade3_TextChanged" CharacterCasing="Upper"></TextBox>
