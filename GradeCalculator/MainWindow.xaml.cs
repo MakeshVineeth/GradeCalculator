@@ -567,7 +567,8 @@ namespace GradeCalculator
                     int V6 = C6 * G6;
                     int V7 = C7 * G7;
                     int V = V1 + V2 + V3 + V4 + V5 + V6 + V7;
-                    double SGPA = V / (double)C;
+                    /*double SGPA = V / (double)C;*/
+                    double SGPA = V;
                     displayBox.Text = SGPA.ToString("0.##");
                 }
                 
